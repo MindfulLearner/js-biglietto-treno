@@ -10,3 +10,24 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 
 ## Tasks niente fare il programma ahha 
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
+
+SPERIMENTARE!!!
