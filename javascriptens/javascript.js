@@ -60,10 +60,10 @@ console.log("-----------------------------------------------------------");
 
 const euroPerKm = 0.21;
 let costoTotale;
- 	costoTotale = Passeggero.percorsoKm * euroPerKm;
+costoTotale = Passeggero.percorsoKm * euroPerKm;
 console.log("il risultato di percorso per kilometro sara: " + Passeggero.percorsoKm + " x " + euroPerKm + " e " + costoTotale.toFixed(2) + "$");
 
-
+// ----------------------------------------------------------------------------
 console.log("------------------------------------------------------------");
 console.log("-------chapt 4 del programma SCONTISTICHE EVENTUALI---------");
 console.log("------------------------------------------------------------");
@@ -74,26 +74,26 @@ if (Passeggero.eta < 65) {
 		let sconto20 = 0.20;
 		let totaleSconto = costoTotale * sconto20;
 		console.log("Verra applicato un 20% di sconto e sul percorso sara:" + " " + totaleSconto.toFixed(2));
-		
+
 		let costoTotaleSconto20 = costoTotale - totaleSconto;
 		console.log("il costo totale per gli under18 sara' costo normale:" + costoTotale.toFixed(2) + " - " + totaleSconto.toFixed(2) + " e' di " + costoTotaleSconto20.toFixed(2) + "$");
 
-		
+
 	} else {
 		console.log("il passeggero ha un eta tra 18 e 65 quindi non ricevera lo sconto");
-			console.log("Pacman paghera il prezzo normale di: " + costoTotale.toFixed(2) + "$");
+		console.log("Pacman paghera il prezzo normale di: " + costoTotale.toFixed(2) + "$");
 
 	}
 } else {
 	console.log("il passeggero e' vecchio quindi avra uno sconto di 40%");
 	let sconto40 = 0.40;
-		let totaleSconto = costoTotale * sconto40;
-		console.log("Verra applicato un 40% di sconto e sul percorso sara:" + " " + totaleSconto.toFixed(2));
-		
-		let costoTotaleSconto40 = costoTotale - totaleSconto;
-		console.log("il costo totale per gli over65 sara' costo normale:" + costoTotale.toFixed(2) + " - " + totaleSconto.toFixed(2) + " e' di " + costoTotaleSconto40.toFixed(2) + "$");
+	let totaleSconto = costoTotale * sconto40;
+	console.log("Verra applicato un 40% di sconto e sul percorso sara:" + " " + totaleSconto.toFixed(2));
 
-		
+	let costoTotaleSconto40 = costoTotale - totaleSconto;
+	console.log("il costo totale per gli over65 sara' costo normale:" + costoTotale.toFixed(2) + " - " + totaleSconto.toFixed(2) + " e' di " + costoTotaleSconto40.toFixed(2) + "$");
+
+
 }
 
 
